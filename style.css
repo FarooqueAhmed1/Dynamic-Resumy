@@ -1,0 +1,148 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 9);
+}
+
+body{
+        background-color: rgb(59, 43, 17);
+
+}
+
+/* contenor css */
+#resumeContenor{
+    display:grid;
+    margin: 50px 300px;
+    gap: 80px
+};
+
+
+#heading{
+    padding-left: 190px;
+    /* font-size: 35px; */
+}
+
+#head1{
+    font-weight: 900;
+    color: rgb(67, 153, 245);
+}
+
+#head2{
+    color: rgb(27, 255, 6);
+}
+
+#formInput{
+    display: grid;
+    background-color: rgb(3, 65, 27);
+    padding: 50px;
+    gap: 30px;
+    border-radius: 50px;
+}
+
+
+fieldset{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(51, 16, 67);
+    color: rgb(28, 12, 38);
+}
+
+legend{
+    color: rgb(184, 255, 18);
+    font-weight: bold;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(138, 248, 193);
+}
+
+label{
+    color: rgb(96, 157, 248);
+}
+
+
+textarea{
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgb(185, 246, 132);
+    font-weight: bold;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+        background-color: rgb(174, 9, 3);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(40, 28, 3);
+}
+
+
+#displayResumeData{
+    color: white;
+}
+
+
+#displayResumeData{
+    border: solid rgb(245, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 100px;
+    padding: 20px;
+    background-color: rgb(19, 81, 136);
+    
+}
+
+h2 b{
+    color:rgb(228, 240, 15);
+    font-size: 45px;
+}
+
+h3{
+    color: rgb(17, 172, 17);
+    font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  #resumeContenor{
+    display:grid;
+    margin: 50px 50px;
+    gap: 100px
+};
+}
+
+@media only screen and (max-width: 786px) {
+  #resumeContenor{
+    display:grid;
+    margin: 50px 70px;
+    gap: 100px
+};
+}
+
+@media only screen and (max-width: 425px) {
+  #resumeContenor{
+    margin: 10px 5px;
+    gap: 100px
+};
+#formInput{
+    display: grid;
+    gap: 30px;
+    width: 200px;
+}
+
+}
